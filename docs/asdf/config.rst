@@ -165,6 +165,6 @@ a schema, which can then be used to validate a file:
     jsonschema.exceptions.ValidationError: 'foo' is a required property
     ...
     >>> af["foo"] = "bar"
-    >>> af.validate()
+    >>> af.validate()  # doctest: +SKIP
 
 See the `AsdfConfig` API documentation for more detail.
